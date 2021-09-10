@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Studying Abroad ?", "Work Permit ?", "Student Loan Assistance ?", "Post Landing Assitance ?" ],
+        strings: ["Studying Abroad", "Work Permit", "Student Loan Assistance", "Post Landing Assitance" ],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
