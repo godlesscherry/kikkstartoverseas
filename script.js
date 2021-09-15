@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Studying Abroad", "Work Permit", "Student Loan Assistance", "Post Landing Assitance", "Career Counselling" ],
+        strings: ["Studying Abroad", "Work Abroad", "Student Loan Assistance", "Post Landing Assitance", "Career Counselling" ],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Studying Abroad ", "Work Permit ? ", "Student Loan Assistance ", "Post Landing Assitance", "Career Counselling"],
+        strings: ["Studying Abroad ", "Work Abroad", "Student Loan Assistance ", "Post Landing Assitance", "Career Counselling"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
