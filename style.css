@@ -113,7 +113,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color:  black
+    color: white;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -167,7 +167,7 @@ section .title::after{
     display: flex;
     background: url("images/PngItem_1390873.png") no-repeat center;background-color: black;
     height: 100vh;
-    color: black
+    color: black;
     min-height: 300px;
     background-size: contain;
     background-attachment: fixed;
@@ -212,7 +212,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: Black;
+    color: white;
     background: none;
 }
 
