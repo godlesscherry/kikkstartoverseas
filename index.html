@@ -179,20 +179,21 @@
                     <form action="https://formsubmit.co/haricharan.nitt@gmail.com" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email Address" required>
                             </div>
                         </div>
                         <div class="field number">
-                            <input type="number" placeholder="Contact number" required>
+                            <input type="number" name="number" placeholder="Contact number" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <input type="text" name= "message" textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_subject" value="New lead generated!">
+                        <input type="hidden" name="_template" value="table">
                         <div class="button-area">
                             <button type="submit">Send message</button>
                         </div>
